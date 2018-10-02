@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YGAlert_Example' do
+  pod 'YGAlert', :path => '../'
+
+  target 'YGAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
