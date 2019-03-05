@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		BD28810AE2C1724D4EC52FE9 /* Pods_YGAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEC4D6266EC18A7273CFE51 /* Pods_YGAlert_Tests.framework */; };
+		E9D73EF7222CA3A700A3ECD1 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D73EF6222CA3A700A3ECD1 /* TestView.xib */; };
+		E9D73EF9222CA5E400A3ECD1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D73EF8222CA5E400A3ECD1 /* TestView.swift */; };
 		EC17E2167F55059DDB9ECD9A /* Pods_YGAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EB41BEE7A564B3AC005E07 /* Pods_YGAlert_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +45,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61A6D13655117AA394D83AC2 /* Pods-YGAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGAlert_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGAlert_Example/Pods-YGAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		88C7AB7F042A5E13981AC6B8 /* Pods-YGAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGAlert_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGAlert_Example/Pods-YGAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A497261AE65118812949A37B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A497261AE65118812949A37B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B9EB41BEE7A564B3AC005E07 /* Pods_YGAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC82A3DF65A206ED20BF3519 /* YGAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YGAlert.podspec; path = ../YGAlert.podspec; sourceTree = "<group>"; };
-		FDA46DD8ECDE3E18143B9C1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC82A3DF65A206ED20BF3519 /* YGAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YGAlert.podspec; path = ../YGAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9D73EF6222CA3A700A3ECD1 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		E9D73EF8222CA5E400A3ECD1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		FDA46DD8ECDE3E18143B9C1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				E9D73EF6222CA3A700A3ECD1 /* TestView.xib */,
+				E9D73EF8222CA5E400A3ECD1 /* TestView.swift */,
 			);
 			name = "Example for YGAlert";
 			path = YGAlert;
@@ -245,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D73EF7222CA3A700A3ECD1 /* TestView.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -322,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D73EF9222CA5E400A3ECD1 /* TestView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
